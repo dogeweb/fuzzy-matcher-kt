@@ -1,0 +1,1 @@
+expect fun getTestResource(resource: String) : String

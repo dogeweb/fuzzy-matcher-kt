@@ -1,0 +1,1 @@
+actual fun getTestResource(resource: String) = ClassLoader.getSystemResource("$resource")?.readText() ?: throw Exception()
